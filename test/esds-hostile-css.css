@@ -1,0 +1,47 @@
+html,
+body {
+    /* Hostile inherited styles*/
+    color: darkorange;
+    font-family: Georgia;
+    font-size: 43px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    line-height: 3.2;
+    text-align: center;
+    text-indent: 103px;
+    text-transform: uppercase;
+    text-shadow: 0 2px 1px red;
+    vertical-align: middle;
+}
+
+/* Hostile typographic vertical space */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+button,
+select,
+optgroup,
+textarea {
+    margin-bottom: -21px;
+    margin-top: -11px;
+}
+
+/* Hostile list defaults */
+ul,
+ol {
+    list-style: lower-greek;
+    margin-bottom: -39px;
+    padding: 29px 29px 29px 300px;
+}
+
+/* Hostile <table> defaults */
+table {
+    border-collapse: separate;
+    border-spacing: 11px 23px;
+}

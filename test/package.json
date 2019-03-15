@@ -1,0 +1,14 @@
+{
+  "name": "esds-hostile-css-test",
+  "description": "A simple static app to perform visual regression testing on the ESDS Hostile CSS",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "gulp avr:test"
+  },
+  "author": "Kevin Powell <kevinmpowell@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "esds-build": "^0.47.1"
+  }
+}
