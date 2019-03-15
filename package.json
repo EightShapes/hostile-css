@@ -4,7 +4,7 @@
   "description": "A collection of intentionally egregious inherited CSS styles intended to fortify Design System component styles.",
   "main": "esds-hostile-css.css",
   "scripts": {
-    "test": "cd test && npm test"
+    "test": "cd test && npm install && npm test"
   },
   "keywords": ["CSS", "Testing", "Design Systems"],
   "author": "Kevin Powell <kevinmpowell@gmail.com>",
