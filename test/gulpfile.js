@@ -1,6 +1,6 @@
 const gulp = require('esds-build');
 
-gulp.task('esds-hook:pre:build:all', () => {
-  return gulp.src('../esds-hostile-css.css')
-        .pipe(gulp.dest('./'));
+gulp.task('esds-hook:post:build:all', () => {
+  return gulp.src(['./dist/esds-hostile-css.css', './styles/esds-hostile-css.scss'])
+        .pipe(gulp.dest('../'));
 });
