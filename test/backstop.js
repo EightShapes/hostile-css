@@ -16,6 +16,12 @@ const localConfig = {
             "url": `http://${runtimeConfig.hostUrl}:${runtimeConfig.testingPort}/index.html`,
             "misMatchThreshold" : 0.0,
             "requireSameDimensions": true
+        },
+        {
+            "label": "scoped",
+            "url": `http://${runtimeConfig.hostUrl}:${runtimeConfig.testingPort}/scoped.html`,
+            "misMatchThreshold" : 0.0,
+            "requireSameDimensions": true
         }
     ],
     "paths": {

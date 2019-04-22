@@ -1,0 +1,4 @@
+.scoped-hostile-wrapper {
+  @import '../../esds-hostile-css.scss';
+  @include esds-hostile-css-global-styles;
+}

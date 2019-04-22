@@ -1,18 +1,22 @@
+@mixin esds-hostile-css-global-styles {
+  /* Hostile inherited styles*/
+  color: darkorange;
+  font-family: Georgia;
+  font-size: 43px;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 0.5em;
+  line-height: 3.2;
+  text-align: center;
+  text-indent: 103px;
+  text-transform: uppercase;
+  text-shadow: 0 2px 1px red;
+  vertical-align: middle;
+}
+
 html,
 body {
-    /* Hostile inherited styles*/
-    color: darkorange;
-    font-family: Georgia;
-    font-size: 43px;
-    font-style: italic;
-    font-weight: bold;
-    letter-spacing: 0.5em;
-    line-height: 3.2;
-    text-align: center;
-    text-indent: 103px;
-    text-transform: uppercase;
-    text-shadow: 0 2px 1px red;
-    vertical-align: middle;
+  @include esds-hostile-css-global-styles;
 }
 
 /* Hostile typographic vertical space */
