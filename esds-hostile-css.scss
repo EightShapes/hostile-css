@@ -49,3 +49,18 @@ table {
     border-collapse: separate;
     border-spacing: 11px 23px;
 }
+
+$exclude-browser-sync-notification: true !default;
+@if ($exclude-browser-sync-notification) {
+  // Use !important to override inline styles
+  #__bs_notify__ {
+    font-size: .9 * 16px !important;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1;
+    text-indent: 0;
+    text-transform: none;
+    text-shadow: none;
+  }
+}

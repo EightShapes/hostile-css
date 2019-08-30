@@ -41,3 +41,13 @@ ol {
 table {
   border-collapse: separate;
   border-spacing: 11px 23px; }
+
+#__bs_notify__ {
+  font-size: 14.4px !important;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 1;
+  text-indent: 0;
+  text-transform: none;
+  text-shadow: none; }
