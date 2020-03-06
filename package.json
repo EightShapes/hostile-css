@@ -1,6 +1,6 @@
 {
-  "name": "esds-hostile-css",
-  "version": "1.3.0",
+  "name": "@eightshapes/esds-hostile-css",
+  "version": "1.4.0",
   "description": "A collection of intentionally egregious inherited CSS styles intended to fortify Design System component styles.",
   "main": "esds-hostile-css.css",
   "scripts": {
