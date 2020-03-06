@@ -14,7 +14,7 @@
   vertical-align: middle;
 }
 
-@mixin esds-hostile-typographic-elements {
+@mixin esds-hostile-typographic-styles {
   /* Hostile typographic vertical space */
   h1,
   h2,
@@ -34,7 +34,7 @@
   }
 }
 
-@mixin esds-hostile-list-elements {
+@mixin esds-hostile-list-styles {
   /* Hostile list defaults */
   ul,
   ol {
@@ -45,7 +45,7 @@
   }
 }
 
-@mixin esds-hostile-table-defaults {
+@mixin esds-hostile-table-styles {
   /* Hostile <table> defaults */
   table {
     @include esds-hostile-css-global-styles;
